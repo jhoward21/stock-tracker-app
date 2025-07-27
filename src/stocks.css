@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding-top: 0;
+}
+
+.stocks-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px; /* Add space between the cards */
+    margin: 20px;
+  }
+  
+  .stock-card {
+    flex: 1; /* Make the cards take up equal space */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #1e1e1e; /* Match the dark theme */
+    color: #fff; /* Ensure text is visible */
+    overflow-y: auto; /* Add scrolling if needed */
+    max-height: 600px; /* Limit the height of each card */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  h2 {
+    text-align: center; /* Center-align the stock symbol */
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: rgb(71, 201, 145);
+    gap: 20px; /* Add space between the cards and button*/
+    margin: 20px;
+  }
