@@ -7,6 +7,7 @@ function ExpenseTracker() {
         <>
             <div>
                 <h1>Expense Tracker</h1>
+                <h1 style={{color: 'red'}}>PLEASE VIEW THE STOCKS PAGE, THIS PAGE IS INCOMPLETE</h1>
             </div>
         </>
     )

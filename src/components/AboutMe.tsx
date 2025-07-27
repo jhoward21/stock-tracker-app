@@ -3,9 +3,9 @@
 function AboutMe () {
   return (
     <>
-      {/* <div>
+      <div>
         <h1>I'm Jermell</h1>
-      </div> */}
+      </div>
     </>
   );
 }
