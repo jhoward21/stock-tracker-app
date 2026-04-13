@@ -37,6 +37,8 @@ function StockTracker() {
     VOO: null,
     SPY: null,
     WMT: null,
+    AVGO: null,
+    TSM: null,
   }); // Setting the initial state of our values.
   const [lastUpdated, setLastUpdated] = useState<LastUpdatedState>({
     AAPL: null,
@@ -49,6 +51,8 @@ function StockTracker() {
     VOO: null,
     SPY: null,
     WMT: null,
+    AVGO: null,
+    TSM: null,
   }); // Setting the state for current updates. "stocks" returns an array of data from the API, setStocks is the function to update that data/state.
   // const [errorMessage, setErrorMessage] = useState(""); // Setting inital state for error message.
 
@@ -65,6 +69,8 @@ function StockTracker() {
       "VOO",
       "SPY",
       "WMT",
+      "AVGO",
+      "TSM",
     ]; // Array of Stocks to grab data from
 
     stockSymbols.forEach((symbol) => { // For each of the stocks fetch the current data using the forEach method.
